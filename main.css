@@ -14,27 +14,37 @@ body, html {
     width: 350px;
     height: 55px;
     margin: 20px 0;
-    background: grey;
     border-radius: 50% / 10%;
-    border-color: black;  
+    border-color: grey;  
     color: white;
     text-align: center;
     text-indent: .1em;
-    opacity: 0.5;
-    
+    opacity: 1;
+    background: rgba(99, 99, 99, 0.333);
     /* filter: alpha(opacity=0); */
    
 }
-.form {
-    display: flex;
-    justify-content: center;
-}
 
-.form-row_align-items-center {
-    display:flex;
-    flex: auto;
-    margin-left: 300px;
-    margin-right: 300px;
+
+.col-auto {
+    width:75%;
+    margin-left: 15%;
+    
 
 }
 
+table.center {
+    background-color: black;
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+body {text-align:center;}
+
+label.sr-only {
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+}
